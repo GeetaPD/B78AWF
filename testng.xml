@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="appURL" value="http://www.fb.com"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="ITO" value="9"/> 
+  <parameter name="ETO" value="7"/> 
+    <packages>
+      <package name="script"/>
+    </packages>  
+   </test> <!-- Test -->
+</suite> <!-- Suite -->

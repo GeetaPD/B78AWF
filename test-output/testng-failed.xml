@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="ETO" value="7"/>
+    <parameter name="ITO" value="9"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="appURL" value="http://www.fb.com"/>
+    <classes>
+      <class name="script.test1">
+        <methods>
+          <include name="postCondition"/>
+          <include name="test"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- script.test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
