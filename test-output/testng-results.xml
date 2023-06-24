@@ -8,12 +8,12 @@
       <![CDATA[test1...]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-23T08:32:27 IST" name="Default suite" finished-at="2023-06-23T08:32:44 IST" duration-ms="17004">
+  <suite started-at="2023-06-24T08:31:25 IST" name="Default suite" finished-at="2023-06-24T08:31:53 IST" duration-ms="27616">
     <groups>
     </groups>
-    <test started-at="2023-06-23T08:32:27 IST" name="Default test" finished-at="2023-06-23T08:32:44 IST" duration-ms="17004">
+    <test started-at="2023-06-24T08:31:25 IST" name="Default test" finished-at="2023-06-24T08:31:53 IST" duration-ms="27616">
       <class name="script.test1">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.test1@18078bef]" started-at="2023-06-23T08:32:27 IST" name="preCondition" finished-at="2023-06-23T08:32:38 IST" duration-ms="11481" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.test1@18078bef]" started-at="2023-06-24T08:31:25 IST" name="preCondition" finished-at="2023-06-24T08:31:46 IST" duration-ms="20967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="test()[pri:0, instance:script.test1@18078bef]" started-at="2023-06-23T08:32:38 IST" name="test" finished-at="2023-06-23T08:32:43 IST" duration-ms="4970" status="PASS">
+        <test-method signature="test()[pri:0, instance:script.test1@18078bef]" started-at="2023-06-24T08:31:46 IST" name="test" finished-at="2023-06-24T08:31:52 IST" duration-ms="5683" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[bhanu]]>
@@ -49,7 +49,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.test1@18078bef]" started-at="2023-06-23T08:32:43 IST" name="postCondition" finished-at="2023-06-23T08:32:44 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.test1@18078bef]" started-at="2023-06-24T08:31:52 IST" name="postCondition" finished-at="2023-06-24T08:31:53 IST" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
