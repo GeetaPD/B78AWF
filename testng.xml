@@ -4,8 +4,8 @@
   <test name="Test">
   <parameter name="appURL" value="http://www.fb.com"/>
   <parameter name="browser" value="chrome"/>
-  <parameter name="ITO" value="9"/> 
-  <parameter name="ETO" value="7"/> 
+  <parameter name="ITO" value="7"/> 
+  <parameter name="ETO" value="9"/> 
     <packages>
       <package name="script"/>
     </packages>  
