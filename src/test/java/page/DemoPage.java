@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class DemoPage {
 	@FindBy(id="email")
 	private WebElement unTB;
+	@FindBy(id="pass")
+	private WebElement pwTB;
 	
 	public DemoPage(WebDriver driver)
 	{
@@ -18,4 +20,11 @@ public class DemoPage {
 	{
 		unTB.sendKeys(un);
 	}
+	
+	public void setPassword(String pwd)
+	{
+		pwTB.sendKeys(pwd);
+	}
 }
+
+
